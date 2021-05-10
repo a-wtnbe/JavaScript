@@ -1,3 +1,8 @@
+// 1章
+alert('Hello World');
+
+
+
 // 2章
 var hello = 'Hello World';
 alert(hello);
@@ -57,6 +62,7 @@ for(i = 1; i < 11; i ++) {
 alert('1から10まで足し算した結果は' + num + 'です');
 
 
+
 // 3章
 // メイン部分
 var alertString;
@@ -95,7 +101,6 @@ function getJShand() {
 // ユーザーの手とJavaScriptのじゃんけんの手を比べる関数
 function winLose(user,js) {
   var winLoseStr;
-
 if(user == "グー") {
   if(js == "グー") {
     winLoseStr = "あいこ";
